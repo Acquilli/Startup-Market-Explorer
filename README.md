@@ -35,23 +35,24 @@ startup-market-explorer/
 
 ## 📊 Data Sources
 The project uses World Bank Open Data:  
-- 💰 **GDP (Gross Capital Formation)** – % of GDP  
-- 📈 **Inflation** – Consumer prices (annual %)  
-- 🏢 **New Business Density** – Number of newly registered companies per 1,000 people  
-- 🔬 **Research & Development (R&D)** – % of GDP  
+  - 💰 **GDP (Gross Capital Formation)** – % of GDP  
+  - 📈 **Inflation** – Consumer prices (annual %)  
+  - 🏢 **New Business Density** – Number of newly registered companies per 1,000 people  
+  - 🔬 **Research & Development (R&D)** – % of GDP  
 
 ## 🛠️ Tech Stack
-  - Python 3 (pandas, matplotlib, sqlalchemy)
-  - PostgreSQL (data storage & SQL views)
-  - Jupyter Notebooks (exploration & pipeline)
-  - pgAdmin (DB management)
+  - **Python 3** (pandas, matplotlib, sqlalchemy)
+  - **PostgreSQL** (data storage & SQL views)
+  - **Jupyter Notebooks** (exploration & pipeline)
+  - **pgAdmin** (DB management)
 
 ## 🚀 How to Run
 1. Clone the repository:
+   ```bash
    git clone https://github.com/your-username/startup-market-explorer.git
    cd startup-market-explorer
 
-2. Create a virtual environment
+3. Create a virtual environment
    python -m venv .venv
    source .venv/bin/activate     # On Linux/Mac
    .venv\Scripts\activate        # On Windows
@@ -89,6 +90,7 @@ Average GDP, Inflation, R&D, and New Business Density
 
 Top 10 Countries by GDP
 Average Gross Capital Formation (% of GDP)
+
 
 
 
