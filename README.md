@@ -80,12 +80,13 @@ The project uses World Bank Open Data:
   - Python Analysis: Pandas for ranking countries, trends, and more
   - Visualizations: Line charts for global trends, bar charts for top countries
 
-📊 Example Visualizations
+## 📊 Example Visualizations
 Global Trends (2006–2022)
 Average GDP, Inflation, R&D, and New Business Density
 
 
 Top 10 Countries by GDP
 Average Gross Capital Formation (% of GDP)
+
 
 
