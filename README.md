@@ -53,21 +53,25 @@ The project uses World Bank Open Data:
    cd startup-market-explorer
 
 3. Create a virtual environment
+   ```bash
    python -m venv .venv
    source .venv/bin/activate     # On Linux/Mac
    .venv\Scripts\activate        # On Windows
 
-4. Install dependencies
+5. Install dependencies
+   ```bash
    pip install -r requirements.txt
    
-6. Setup PostgreSQL
+7. Setup PostgreSQL
    - Install PostgreSQL & pgAdmin
    - Create a database (e.g., startup_db)
    - Configure connection in src/db_connect.py
 
 8. Load and transform data
    Run the pipeline notebook:
+   ```bash
    jupyter notebook notebooks/02_pipeline_run.ipynb
+   ```
    This will:
     - Load raw CSVs from data/raw/
     - Clean and reshape them into long format
@@ -75,6 +79,7 @@ The project uses World Bank Open Data:
     - Push them into PostgreSQL
 
 10. Explore the unified view
+    ```bash
     SELECT * FROM startup_metrics_complete;
     
 ## 📈 Features
@@ -90,6 +95,7 @@ Average GDP, Inflation, R&D, and New Business Density
 
 Top 10 Countries by GDP
 Average Gross Capital Formation (% of GDP)
+
 
 
 
