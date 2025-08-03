@@ -14,7 +14,7 @@ Using World Bank data and PostgreSQL, we:
 This project is an excellent base for market research, startup ecosystem analysis, and data-driven decision-making.
 
 ## 📂 Project Structure
-'''
+```
 startup-market-explorer/
 │
 ├── data/
@@ -31,7 +31,7 @@ startup-market-explorer/
 │
 ├── README.md                     # Project documentation
 └── requirements.txt              # Python dependencies
-'''
+```
 
 ## 📊 Data Sources
 The project uses World Bank Open Data:
@@ -89,6 +89,7 @@ Average GDP, Inflation, R&D, and New Business Density
 
 Top 10 Countries by GDP
 Average Gross Capital Formation (% of GDP)
+
 
 
 
