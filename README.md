@@ -34,11 +34,11 @@ startup-market-explorer/
 ```
 
 ## 📊 Data Sources
-The project uses World Bank Open Data:
-   - 💰 GDP (Gross Capital Formation) – % of GDP
-   - 📈 Inflation – Consumer prices (annual %)
-   - 🏢 New Business Density – Number of newly registered companies per 1,000 people
-   - 🔬 Research & Development (R&D) – % of GDP
+The project uses World Bank Open Data:  
+- 💰 **GDP (Gross Capital Formation)** – % of GDP  
+- 📈 **Inflation** – Consumer prices (annual %)  
+- 🏢 **New Business Density** – Number of newly registered companies per 1,000 people  
+- 🔬 **Research & Development (R&D)** – % of GDP  
 
 ## 🛠️ Tech Stack
   - Python 3 (pandas, matplotlib, sqlalchemy)
@@ -89,6 +89,7 @@ Average GDP, Inflation, R&D, and New Business Density
 
 Top 10 Countries by GDP
 Average Gross Capital Formation (% of GDP)
+
 
 
 
