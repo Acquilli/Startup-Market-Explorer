@@ -1,4 +1,4 @@
-### 📊 Startup Market Explorer
+# 📊 Startup Market Explorer
 A data-driven tool to compare countries by their startup attractiveness indicators
 
 ## 🌍 Project Overview
@@ -87,4 +87,5 @@ Average GDP, Inflation, R&D, and New Business Density
 
 Top 10 Countries by GDP
 Average Gross Capital Formation (% of GDP)
+
 
